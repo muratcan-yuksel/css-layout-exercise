@@ -51,6 +51,12 @@ a{
     height: 50vh;
 
 }
+/*GRID*/
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat (uto-fill, min-max(350px, 1fr))
+}
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
