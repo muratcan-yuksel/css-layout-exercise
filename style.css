@@ -51,11 +51,40 @@ a{
     height: 50vh;
 
 }
-/*GRID*/
+/*GRID This is Andrei's code. Mine doesn't work for some reason. */
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+.box > img {
+    width: 100%;
+}
+/*This is my code, it doesn't work:
 .grid-wrapper{
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat (uto-fill, min-max(350px, 1fr))
+        grid-template-columns: repeat (auto-fill, minmax(350px, 1fr));
+        grid-gap: 20px;
+    }
+.box{
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+.box > img {
+    width: 100;
+} */
+
+footer{
+    text-align: center;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
